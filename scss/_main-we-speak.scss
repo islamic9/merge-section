@@ -19,7 +19,7 @@
 
 
 .detals__inner{
-    @include center-elements(center, space-between, 0)
+    @include center-elements(center, space-between, 0);
 }
 
 .span{
@@ -29,7 +29,7 @@
 .detals__title{
     padding: 14px 0 14px 0;
     @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
-    // @include center-elements(start, flex-end, 0);
+    @include center-elements(start, end, 0);
     color: #14213D;
     margin: 0;
 }

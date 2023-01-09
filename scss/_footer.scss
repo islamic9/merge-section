@@ -55,7 +55,7 @@
 }
 
 .footer__list-wrapper{
-    @include center-elements(start, flex-start, 64px);
+    @include center-elements(start, start, 64px);
     padding: 0 0 200px 250px;
 }
 
