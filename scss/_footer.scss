@@ -1,0 +1,95 @@
+.footer{
+    padding: 118px 0 46px 0;
+}
+
+.footer__inner{
+    padding-top: 150px;
+    background-image: url(../images/footer.images/foooter_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 491px;
+    border-radius: 40px;
+    @include center-elements(center, space-between, 0);
+}
+
+.footer__left{
+    @include center-elements(start, end, 0);
+    flex-direction: column;
+    position: relative;
+}
+
+.footer__span, .footer__strong-span, .footer__copyright{
+    @include fonts('Gordita', normal, 400, 18px, 26px, #14213D);
+}
+
+.footer__strong-span{
+    padding: 30px 0 163px 0;
+
+}
+
+.footer__strong-span{
+    width:  195px;
+}
+
+.footer__copyright, .footer__span, .footer__strong-span{
+    padding-left: 22px;
+}
+
+.logo{
+    position: absolute;
+    top: -100px;
+    left: 30px;
+}
+
+.left__dods{
+    position: absolute;
+    top: 140px;
+    left: -40px;
+}
+
+.footer__list-strong{
+    @include fonts('Gordita-700', normal, 400, 20px, 28px, #14213D);
+    display: block;
+    padding-bottom: 11px
+    
+}
+
+.footer__list-wrapper{
+    @include center-elements(start, flex-start, 64px);
+    padding: 0 0 200px 250px;
+}
+
+.footer__item{
+    @include fonts('Gordita', normal, 400, 20px, 28px, #14213D);
+    padding-bottom: 20px;
+}
+
+.footer__images-wrapper{
+    position: relative;
+}
+
+.footer-right__dods{
+    position: absolute;
+    top: -170px;
+    right: 0;
+}
+
+.footer-right__bloud{
+    position: absolute;
+    top: -190px;
+    right: 56px;
+}
+
+.footer-right__squre-bottom{
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+    z-index: 3;
+}  
+
+.footer__blue-square{
+    position: inherit;
+    top: 92px;
+    right: 161px;
+    z-index: 2;
+}

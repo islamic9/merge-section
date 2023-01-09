@@ -1,0 +1,35 @@
+.testing__inner{
+    @include center-elements(center,space-around, 24px);
+    padding-top: 165px;
+    position: relative;
+    margin-left: -40px;
+}
+.testing__desc{
+    margin-top: 100px;
+}
+
+.texting__brown-background{
+    position: absolute;
+    top: 350px;
+    left: -15px;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: rgba(252, 163, 17, 0.5);
+    z-index: -1;
+}
+
+.testing__title{
+    @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
+    padding-bottom: 22px;
+}
+
+.testing__text{
+    @include fonts('Gordita', normal, 400, 24px, 34px, #303948);
+    max-width: 600px;
+    padding-bottom: 176px;
+}
+
+.testing-icon__images{
+    @include center-elements(center, flex-end, 41px)
+}

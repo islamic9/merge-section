@@ -1,0 +1,89 @@
+@mixin center-elements ($ai, $jc, $gap){
+    display: flex;
+    align-items: $ai;
+    justify-content:  $jc;
+    gap: $gap;
+}
+
+@mixin fonts ($ff, $fs, $fw, $f-size, $lh, $color){
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $f-size;
+    line-height: $lh;
+    color: $color;
+}
+
+
+
+
+
+.detals__inner{
+    @include center-elements(center,space-between, 0)
+}
+
+.span{
+    @include fonts('Gordita', normal, 400, 18px, 26px, #303948);                                                 
+}
+
+.detals__title{
+    padding: 14px 0 14px 0;
+    @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
+    // @include center-elements(start, flex-end, 0);
+    color: #14213D;
+    margin: 0;
+}
+
+.detals__text{
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+    color: #59616D;
+}
+
+.detals__images{
+    @include center-elements(center, center, 0);
+}
+
+.ezvordi{
+    margin-top: 50px;
+}
+
+.hero__info{
+    padding-top: 94px;
+    @include center-elements(center, center, 0);
+    flex-direction: column;
+}
+
+.hero__strong{
+    padding: 36px 0 14px 0;
+    @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
+}
+
+.hero__span{
+    @include fonts('Gordita', normal, 400, 18px, 26px, #303948);
+    padding-bottom: 36px;
+}
+
+.hero__btn{
+    @include fonts('Gordita', normal, 400, 22px, 31px, #FAFAFA);
+    background: #14213D;
+    border-radius: 35px;
+    padding: 18px 68px 18px 70px;
+    border: none;
+}
+
+.detals-info__wrapper{
+    @include center-elements(center, space-around, 0);
+}
+
+// testing section
+
+
+// footer section
+
+
+
