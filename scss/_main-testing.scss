@@ -1,5 +1,5 @@
 .testing__inner{
-    @include center-elements(center,space-around, 24px);
+    // @include center-elements (center, space-around, 24px);
     padding-top: 165px;
     position: relative;
     margin-left: -40px;
@@ -20,16 +20,16 @@
 }
 
 .testing__title{
-    @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
+    // @include fonts('Gordita', normal, 400, 36px, 51px, #303948);
     padding-bottom: 22px;
 }
 
 .testing__text{
-    @include fonts('Gordita', normal, 400, 24px, 34px, #303948);
+    // @include fonts('Gordita', normal, 400, 24px, 34px, #303948);
     max-width: 600px;
     padding-bottom: 176px;
 }
 
 .testing-icon__images{
-    @include center-elements(center, flex-end, 41px)
+    // @include center-elements(center, flex-end, 41px)
 }
