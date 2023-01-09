@@ -1,1 +1,470 @@
-.container{max-width:1250px;margin:0 auto;padding:0 7px}@font-face{font-family:"Gordita";src:url(../fonts/OpenSans-Regular.ttf)}@font-face{font-family:"Gordita-500";src:url(../fonts/OpenSans-Medium.ttf)}@font-face{font-family:"Gordita-700";src:url(../fonts/OpenSans-Bold.ttf)}.detals__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:0}.span{font-family:"Gordita";font-style:normal;font-weight:400;font-size:18px;line-height:26px;color:#303948}.detals__title{padding:14px 0 14px 0;font-family:"Gordita";font-style:normal;font-weight:400;font-size:36px;line-height:51px;color:#303948;color:#14213d;margin:0}.detals__text{font-family:"Gordita";font-style:normal;font-weight:400;font-size:18px;line-height:26px;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#59616d}.detals__images{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:0}.ezvordi{margin-top:50px}.hero__info{padding-top:94px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.hero__strong{padding:36px 0 14px 0;font-family:"Gordita";font-style:normal;font-weight:400;font-size:36px;line-height:51px;color:#303948}.hero__span{font-family:"Gordita";font-style:normal;font-weight:400;font-size:18px;line-height:26px;color:#303948;padding-bottom:36px}.hero__btn{font-family:"Gordita";font-style:normal;font-weight:400;font-size:22px;line-height:31px;color:#fafafa;background:#14213d;border-radius:35px;padding:18px 68px 18px 70px;border:none}.detals-info__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around;gap:0}.testing__inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around;gap:24px;padding-top:165px;position:relative;margin-left:-40px}.testing__desc{margin-top:100px}.texting__brown-background{position:absolute;top:350px;left:-15px;content:"";width:100px;height:100px;background:rgba(252,163,17,.5);z-index:-1}.testing__title{font-family:"Gordita";font-style:normal;font-weight:400;font-size:36px;line-height:51px;color:#303948;padding-bottom:22px}.testing__text{font-family:"Gordita";font-style:normal;font-weight:400;font-size:24px;line-height:34px;color:#303948;max-width:600px;padding-bottom:176px}.testing-icon__images{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;gap:41px}.footer{padding:118px 0 46px 0}.footer__inner{padding-top:150px;background-image:url(../images/footer.images/foooter_back.png);background-repeat:no-repeat;background-size:cover;height:491px;border-radius:40px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;gap:0}.footer__left{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:start;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:end;gap:0;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative}.footer__span,.footer__strong-span,.footer__copyright{font-family:"Gordita";font-style:normal;font-weight:400;font-size:18px;line-height:26px;color:#14213d}.footer__strong-span{padding:30px 0 163px 0}.footer__strong-span{width:195px}.footer__copyright,.footer__span,.footer__strong-span{padding-left:22px}.logo{position:absolute;top:-100px;left:30px}.left__dods{position:absolute;top:140px;left:-40px}.footer__list-strong{font-family:"Gordita-700";font-style:normal;font-weight:400;font-size:20px;line-height:28px;color:#14213d;display:block;padding-bottom:11px}.footer__list-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:start;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;gap:64px;padding:0 0 200px 250px}.footer__item{font-family:"Gordita";font-style:normal;font-weight:400;font-size:20px;line-height:28px;color:#14213d;padding-bottom:20px}.footer__images-wrapper{position:relative}.footer-right__dods{position:absolute;top:-170px;right:0}.footer-right__bloud{position:absolute;top:-190px;right:56px}.footer-right__squre-bottom{position:absolute;bottom:-130px;right:0;z-index:3}.footer__blue-square{position:inherit;top:92px;right:161px;z-index:2}/*# sourceMappingURL=style.min.css.map */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 7px;
+    border: 1px solid;
+    
+}
+
+@font-face {
+    font-family: "Gordita";
+    src: url(../fonts/OpenSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Gordita-500";
+    src: url(../fonts/OpenSans-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Gordita-700";
+    src: url(../fonts/OpenSans-Bold.ttf)
+}
+
+.sec__top-h{
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 51px;
+color: #303948;
+margin-top: 84px;
+margin-left: 550px;
+
+}
+.sec__top-p{
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+margin-top: 25px;
+margin-left: 340px;
+color: #303948;
+}
+.sec__top-image_grop{
+    margin-left: 300px;
+    margin-top: 60px;
+    margin-bottom: 95px;
+    
+}
+.sec__top-image_grop>img {
+    margin-left: 25px;
+}
+.section__div{
+    display: flex;
+}
+
+.div--two-image{
+    margin-top: -680px;
+    margin-left: -160px;
+}
+.div--there-image{
+    margin-top: 25px;
+    margin-left: -685px;
+}
+
+.div__h{
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #303948;
+margin-left: 545px;
+margin-top: 50px;
+}
+.div__h2{
+    width: 515px;
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 51px;
+color: #14213D;
+margin-left: 545px;
+
+}
+.div__h--foot {
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #59616D;
+margin-left: 545px;
+    margin-top: 14px;
+}
+.diving{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    margin-top: 74px;
+    margin-left: 545px;
+}
+
+.diving__left{
+    width: 50%;
+}
+
+.div--div{
+    display: flex;
+
+}
+.div--div>h4{
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+color: #303948;
+margin-top: 20px;
+margin-left: 23px;
+}
+
+.hhh{
+    width: 200px;
+    font-family: 'Gordita';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #59616D;
+margin-top: 18px;
+margin-bottom: 88px;
+}
+
+.detals__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 0
+}
+
+.span {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #303948
+}
+
+.detals__title {
+    padding: 14px 0 14px 0;
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #303948;
+    color: #14213d;
+    margin: 0
+}
+
+.detals__text {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #59616d
+}
+
+.detals__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0
+}
+
+.ezvordi {
+    margin-top: 50px
+}
+
+.hero__info {
+    padding-top: 94px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.hero__strong {
+    padding: 36px 0 14px 0;
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #303948
+}
+
+.hero__span {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #303948;
+    padding-bottom: 36px
+}
+
+.hero__btn {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #fafafa;
+    background: #14213d;
+    border-radius: 35px;
+    padding: 18px 68px 18px 70px;
+    border: none
+}
+
+.detals-info__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    gap: 0
+}
+
+.testing__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    gap: 24px;
+    padding-top: 165px;
+    position: relative;
+    margin-left: -40px
+}
+
+.testing__desc {
+    margin-top: 100px
+}
+
+.texting__brown-background {
+    position: absolute;
+    top: 350px;
+    left: -15px;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: rgba(252, 163, 17, .5);
+    z-index: -1
+}
+
+.testing__title {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    color: #303948;
+    padding-bottom: 22px
+}
+
+.testing__text {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #303948;
+    max-width: 600px;
+    padding-bottom: 176px
+}
+
+.testing-icon__images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 41px
+}
+
+.footer {
+    padding: 118px 0 46px 0
+}
+
+.footer__inner {
+    padding-top: 150px;
+    background-image: url(../images/footer.images/foooter_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 491px;
+    border-radius: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    gap: 0
+}
+
+.footer__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative
+}
+
+.footer__span,
+.footer__strong-span,
+.footer__copyright {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #14213d
+}
+
+.footer__strong-span {
+    padding: 30px 0 163px 0
+}
+
+.footer__strong-span {
+    width: 195px
+}
+
+.footer__copyright,
+.footer__span,
+.footer__strong-span {
+    padding-left: 22px
+}
+
+.logo {
+    position: absolute;
+    top: -100px;
+    left: 30px
+}
+
+.left__dods {
+    position: absolute;
+    top: 140px;
+    left: -40px
+}
+
+.footer__list-strong {
+    font-family: "Gordita-700";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #14213d;
+    display: block;
+    padding-bottom: 11px
+}
+
+.footer__list-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 64px;
+    padding: 0 0 200px 250px
+}
+
+.footer__item {
+    font-family: "Gordita";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #14213d;
+    padding-bottom: 20px
+}
+
+.footer__images-wrapper {
+    position: relative
+}
+
+.footer-right__dods {
+    position: absolute;
+    top: -170px;
+    right: 0
+}
+
+.footer-right__bloud {
+    position: absolute;
+    top: -190px;
+    right: 56px
+}
+
+.footer-right__squre-bottom {
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+    z-index: 3
+}
+
+.footer__blue-square {
+    position: inherit;
+    top: 92px;
+    right: 161px;
+    z-index: 2
+}
+
+/*# sourceMappingURL=style.min.css.map */
