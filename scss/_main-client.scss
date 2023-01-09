@@ -1,0 +1,31 @@
+@mixin center-elements ($ai, $jc, $gap){
+    display: flex;
+    align-items: $ai;
+    justify-content:  $jc;
+    gap: $gap;
+}
+
+@mixin fonts ($ff, $fs, $fw, $f-size, $lh, $color){
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $f-size;
+    line-height: $lh;
+    color: $color;
+}
+
+
+
+.box{
+    background: green;
+    width: 400px;
+    height: 400px;
+    @include center-elements(center, center, 0);
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+

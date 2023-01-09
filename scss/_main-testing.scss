@@ -31,5 +31,5 @@
 }
 
 .testing-icon__images{
-    @include center-elements(center, flex-end, 41px)
+    @include center-elements(center, end, 41px);
 }
