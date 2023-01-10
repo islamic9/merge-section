@@ -1,5 +1,5 @@
 .testing__inner{
-    @include center-elements(center,space-around, 24px);
+    @include center-elements(center, space-around, 24px);
     padding-top: 165px;
     position: relative;
     margin-left: -40px;
@@ -31,5 +31,5 @@
 }
 
 .testing-icon__images{
-    @include center-elements(center, flex-end, 41px)
+    @include center-elements(center, end, 41px);
 }
