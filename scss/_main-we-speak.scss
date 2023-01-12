@@ -1,10 +1,9 @@
-@mixin center-elements ($ai, $jc, $gap){
+@mixin center-elements ($ai, $jc, $gap,){
     display: flex;
     align-items: $ai;
     justify-content:  $jc;
     gap: $gap;
 }
-
 @mixin fonts ($ff, $fs, $fw, $f-size, $lh, $color){
     font-family: $ff;
     font-style: $fs;
@@ -13,9 +12,6 @@
     line-height: $lh;
     color: $color;
 }
-
-
-
 
 
 .detals__inner{
