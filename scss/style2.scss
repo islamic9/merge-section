@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 3px solid red;
+
+    .container {
+        width: 1460px;
+        height: auto;
+        // border: 3px solid red;
+
+        .header-top {
+            width: 100%;
+            height: 85px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 14px;
+
+            nav {
+                width: 30%;
+                // border: 3px solid red;
+                display: flex;
+                justify-content: end;
+
+                ul {
+                    display: flex;
+                    gap: 30px;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                ul li a {
+                    font-family: 'Gorditas';
+                    font-style: normal;
+                    font-weight: 100;
+                    font-size: 16px;
+                    line-height: 23px;
+                    color: #303948;
+                }
+            }
+        }
+
+        .header-center {
+            width: 100%;
+            height: 700px;
+            border-radius: 45px;
+            margin-top: 65px;
+            background: url(/merge-section/images/header-images/Background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header-center-left {
+                width: 590px;
+                margin-left: 60px;
+                padding-left: 30px;
+                // border: 3px solid red;
+
+                .h1 {
+                    font-family: 'Gordita';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 71px;
+                    color: #ffffff;
+                }
+
+                .p {
+                    font-family: 'Gordita';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #ffffff;
+                    width: 471px;
+                    height: 108px;
+                    margin-top: 18px;
+                }
+
+                button {
+                    background: #FAFAFA;
+                    border-radius: 35px;
+                    padding: 13px 53px;
+                    border: none;
+                    font-family: 'Gordita';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 31px;
+                    color: #303948;
+                    margin-top: 15px;
+                    transition: 0.5s;
+                }
+
+                button:focus {
+                    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+                    transition: 0.5s;
+                    color: white;
+                }
+            }
+            .header-center-right img{
+                border-radius:45px;
+            }
+        }
+
+        .header-footer {
+            width: 100%;
+            height: 85px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .header-footer-box {
+                width: 1039px;
+                height: 326px;
+                background: #14213D;
+                box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+                border-radius: 35px;
+                animation-name: box;
+                animation-duration: 3s;
+                // animation-timing-function: linear;
+                animation-fill-mode: forwards;
+                animation-delay: 0.5s;
+                opacity: 0;
+
+                h2 {
+                    font-family: 'Gordita';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 36px;
+                    line-height: 51px;
+                    display: flex;
+                    align-items: center;
+                    color: #ffffff;
+                    padding: 0px 45px;
+                    margin-top: 97px;
+                }
+
+                p {
+                    font-family: 'Gordita';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    display: flex;
+                    align-items: center;
+                    color: #FFFFFF;
+                    padding: 0px 45px;
+                    margin-top: 25px;
+                }
+            }
+
+            @keyframes box {
+                100% {
+                    transform: scale(1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+}
